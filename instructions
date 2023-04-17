@@ -1,0 +1,25 @@
+npm init -y
+
+npm install --global prettier
+
+npm install -D prettier@2.7.1
+
+add this to package.json "format": "prettier --write \"src/**/*.{js,jsx}\"" 
+
+npm run format
+
+add .gitignore file add the following:
+node_modules
+ dist/ 
+.env .
+DS_Store
+ coverage/
+ .vscode/ 
+
+npm create vite
+
+cd <app-name>
+
+npm install
+
+npm run dev
